@@ -1,7 +1,0 @@
-How to use git
-
-1. init to git for your project
-    git init
-
-2. Add the files in git
-    git add file_name.extention

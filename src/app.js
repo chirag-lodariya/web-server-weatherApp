@@ -83,12 +83,7 @@ app.get('/about',(req,resp)=>{
     });
 })
 
-app.get('/contact',(req,resp)=>{
-    resp.render('contact',{
-        title : 'Contact',
-        name 
-    })
-})
+
 
 app.get('/weatherdisplay',(req,resp)=>{
     if(!req.query.address)
